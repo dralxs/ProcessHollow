@@ -40,9 +40,7 @@
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="DInvoke">
-      <HintPath>..\..\..\extern_dll\DInvoke\DInvoke\DInvoke\bin\Debug\DInvoke.dll</HintPath>
-    </Reference>
+    <Reference Include="System" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
